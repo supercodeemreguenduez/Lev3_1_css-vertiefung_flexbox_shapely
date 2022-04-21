@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+*{
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}s
+
+/* === Header === */
+header{
+    height: 76px;
+    position: sticky;
+    padding: 50vh
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid rgba(78, 77, 77, 0.195);
+    border-bottom: 2px solid rgba(168, 164, 164, 0.222);
+    font-family: 'Raleway', sans-serif;
+    color: #333; 
+}
+
+a:link { text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+    }
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+
+header nav ul a {
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+header nav ul a:hover{
+    color: #337ab7;
+}
+
+.logo {
+    font-size: 26px;
+    color: #666;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+/* === Main === */
+
+main {
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 200px;
+}
+
+main section {
+    text-align: center;
+    color: white;
+}
+
+main section h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button a {
+    display: inline-block;
+    width: 160px;
+    font-size: 14px;
+    color : white;
+    border: 1px solid white;
+}
+
+.button a:nth-of-type(1) {
+    text-decoration: none;
+    border: 1px solid #745cf9;
+    background-color: #745cf9;
+}
+
+.button a:nth-of-type(2) {
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
